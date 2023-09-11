@@ -49,6 +49,7 @@ func (b *Bot) Alive() bool {
 // @description: 设置设备Id
 // @receiver b
 // @param deviceId
+#
 func (b *Bot) SetDeviceId(deviceId string) {
 	b.deviceId = deviceId
 }
